@@ -96,7 +96,7 @@ const Navbar = () => {
            p={3}  
           >
            <Typography>
-            logOut
+            logout
            </Typography>
            <img src={shutdown} style={{width:"20px"}} alt='shutdown'/>
             </Box>
@@ -174,7 +174,7 @@ const Navbar = () => {
            gap={1}
           >
            <Typography>
-            logOut
+            logout
            </Typography>
            <img src={shutdown} style={{width:"20px"}} alt='shutdown'/>
             </Box>

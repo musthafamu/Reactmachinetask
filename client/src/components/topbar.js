@@ -18,7 +18,7 @@ function TopBar() {
       >
         <Box mr={3}>
           <Typography fontWeight="bold">John Doe</Typography>
-          <Typography fontSize={10}>john.doe@gmail.com</Typography>
+          <Typography fontSize={10}>john@doe.com</Typography>
         </Box>
         <img
           src={profile}

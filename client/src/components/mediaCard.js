@@ -22,8 +22,9 @@ export default function MultiActionAreaCard() {
         <CardContent >
           <Box display='flex' flexDirection='column' gap={1} alignItems='center'>
 
-         <Typography fontStyle='bold'>Jone Doe</Typography>
-         <Typography fontStyle='bold'>CEO</Typography>
+          <Typography fontWeight='bold'>John Doe</Typography>
+
+         <Typography >CEO</Typography>
          <Box display='flex' gap={3}>
         <img src={facebook} />
         <img src={instagram} />
