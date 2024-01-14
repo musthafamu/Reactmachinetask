@@ -1,6 +1,7 @@
 # React Machine Task Statboard
 
-Welcome to the React Machine Task Statboard project! This project is a client-side React application designed for [provide a brief description of the project].
+Welcome to the React Machine Task Statboard project! This project is a client-side React application designed for [provide a brief description of the project]. The application uses an API, and there is a Node.js server located in the `server` folder.
+
 
 ## Technologies Used
 
@@ -16,9 +17,9 @@ To run the project locally, follow these steps:
 
  **Clone the repository:**
   
- git clone
-   cd your-repo
-   npm install 
-   npm start
+ **git clone**
+   **cd your-repo**
+   **npm install** 
+   **npm start**
  
 
