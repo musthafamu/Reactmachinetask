@@ -6,7 +6,7 @@ import ScrollableTable from '../widgets/table';
 import Topbar from './topbar';
 import MultiActionAreaCard from './mediaCard';
 
-function Feeds() {
+function Main() {
   const theme = useTheme();
 
 
@@ -19,17 +19,17 @@ function Feeds() {
          <Grid item xs={12}>
         <Topbar/>
          </Grid>
-        <Grid item xs={12} sm={8}>
+        <Grid item xs={12} sm={8} lg={7} xl={3}>
           <LineChart width={chartWidth} height={chartHeight}  />
         </Grid>
 
         
-        <Grid item xs={12} sm={4}>
+        <Grid item xs={12} sm={4} lg={5} xl={3}>
           <BasicPie height={chartHeight} width={chartWidth} />
         </Grid>
 
         {/* ScrollableTable */}
-        <Grid item xs={12} sm={8}>
+        <Grid item xs={12} sm={8} xl={5}>
           <ScrollableTable width={chartWidth} />
         </Grid>
         <Grid item xs={12} sm={4}>
@@ -40,4 +40,4 @@ function Feeds() {
   );
 }
 
-export default Feeds;
+export default Main;
