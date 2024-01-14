@@ -9,6 +9,8 @@ import { general } from '../theme/colors';
 import { Search, Message, Notifications, Menu, Close } from '@mui/icons-material';
 import StatBoard from '../Assets/StatBoard.png';
 import BriefCase from '../Assets/Briefcase.png';
+import shutdown from '../Assets/Shutdown.png'
+import  Dashboard  from '../Assets/Dashboard.png';
 import Support from '../Assets/Support.png';
 import Puzzle from '../Assets/Puzzle.png';
 import Help from '../Assets/Help.png';
@@ -16,7 +18,7 @@ import MenuItem from './Menuitem'
 import { useNavigate } from 'react-router-dom';
 
 const menuItems = [
-  { path: '/', label: 'Dashboard', icon: BriefCase },
+  { path: '/', label: 'Dashboard', icon: Dashboard },
   { path: '/support', label: 'Support', icon: Support },
   { path: '/plugins', label: 'Plugins', icon: Puzzle },
   { path: '/help', label: 'Help', icon: Help },
@@ -90,12 +92,13 @@ const Navbar = () => {
            justifyContent='center'     
            bgcolor='white'
            color='red'
+           gap={1}
            p={3}  
           >
            <Typography>
             logOut
            </Typography>
-           <img src={Help} style={{width:"20px"}} alt='shutdown'/>
+           <img src={shutdown} style={{width:"20px"}} alt='shutdown'/>
             </Box>
 
       </Box>
@@ -163,11 +166,12 @@ const Navbar = () => {
            bgcolor='white'
            color='red'
            p={3}  
+           gap={1}
           >
            <Typography>
             logOut
            </Typography>
-           <img src={Help} style={{width:"20px"}} alt='shutdown'/>
+           <img src={shutdown} style={{width:"20px"}} alt='shutdown'/>
             </Box>
         </Box>
       )}
