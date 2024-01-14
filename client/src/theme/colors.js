@@ -6,7 +6,7 @@ export const general={
 }
 
 
-export const piechart={
+export const piechartcolor={
     a:"#428c43",
     b:"#72ba73",
     c:"#99c49a",

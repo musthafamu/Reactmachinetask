@@ -3,7 +3,7 @@ import { Box } from '@mui/material';
 import { PieChart } from '@mui/x-charts/PieChart';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchPiechart } from '../state/slices/pieSlice';
-
+import {piechartcolor} from '../theme/colors'
 export default function BasicPie({ height, width }) {
     const dispatch = useDispatch();
     const piechart = useSelector((state) => state.pie.piechart);
@@ -12,7 +12,7 @@ export default function BasicPie({ height, width }) {
         dispatch(fetchPiechart());
     }, [dispatch]);
 
-    const customColors = ['red', '#FFD700', '#36A2EB', '#4CAF50', '#FF6384'];
+    const customColors = [piechartcolor.a, piechartcolor.b, piechartcolor.c, piechartcolor.d, piechartcolor.e];
 
     const dataWithColors = piechart.map((point, index) => ({
         ...point,
