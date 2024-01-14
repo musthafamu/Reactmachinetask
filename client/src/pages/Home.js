@@ -13,6 +13,7 @@ function Home() {
         <Sidebar />
 
         <Main />
+        
       </Stack>
     </Box>
   );
