@@ -104,7 +104,12 @@ const Navbar = () => {
       </Box>
       ) : (
       
-          <Menu onClick={() => setIsMobileMenuToggled(!isMobileMenuToggled)} />
+        
+
+<Menu style={{ fontSize: '30px' }} onClick={() => setIsMobileMenuToggled(!isMobileMenuToggled)} />
+
+         
+
        
       )}
 
