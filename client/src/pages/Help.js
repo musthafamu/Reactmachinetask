@@ -9,7 +9,7 @@ function Help() {
      
     <Navbar/>
 
-      <Box>ddd</Box>
+      <Box>Help</Box>
    </Stack>
   </Box>
   )
