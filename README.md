@@ -16,10 +16,18 @@ Welcome to the React Machine Task Statboard project! This project is a client-si
 To run the project locally, follow these steps:
 
  **Clone the repository:**
-  
- **git clone**
-   **cd your-repo**
-   **npm install** 
-   **npm start**
  
+  # Navigate to the Server directory
+cd Server
+# Install dependencies
+npm install
+# Start the backend server
+node server.js
 
+ 
+# Navigate to the client directory
+cd client
+# Install dependencies
+npm install
+# Start the application
+npm start
